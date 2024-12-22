@@ -7,5 +7,5 @@ Arm64 version damengdb v8 can be running on your docker environment, for develop
 USAGE:
 
 ```shell
-docker run -d -p 5236:5236 --restart=always --name damengdb -v ./data/damengdb:/dmdata/data hanyf/damengdb:8-kylin10-ubuntu
+docker run -d -p 5236:5236 --restart=always --name damengdb -v ./data/damengdb:/dmdata/data hanyf/damengdb:v1.0
 ```
